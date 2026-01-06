@@ -1,0 +1,14 @@
+Project Requirements
+
+Runtime:
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+Key Libraries (install via 'npm install'):
+- react
+- react-dom
+- axios
+- @supabase/supabase-js
+
+Build Tools:
+- vite
