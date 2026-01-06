@@ -1,16 +1,23 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Weather Dashboard application developed as part of a coding assessment. The application allows users to search for weather conditions by City Name or Zip Code, view historical data, and save search logs to a Supabase database. It also integrates information regarding the Product Manager Accelerator (PMA) program.
 
-Currently, two official plugins are available:
+## Features
+- **Real-time Weather:** Fetches current weather data using the WeatherAPI.
+- **Historical Data:** Retrieving past weather data for specific dates.
+- **Smart Search:** Supports both City Names (e.g., "Paris") and Zip Codes (e.g., "90210").
+- **Database Integration:** Automatically logs search history to a Supabase backend with CRUD capabilities (Create, Read, Update, Delete).
+- **PMA Info Modal:** A dedicated information section detailing Product Manager Accelerator services.
+- **Responsive Design:** Custom styling using Google Fonts (Chewy & Fredoka) for a user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React.js
+- **HTTP Client:** Axios
+- **Backend/DB:** Supabase
+- **API:** WeatherAPI.com
 
-## React Compiler
+## How to Run the Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the Repository
+```bash
+git clone <https://github.com/ashwini-anantharaman/weather-app>
+cd weather-dashboard
